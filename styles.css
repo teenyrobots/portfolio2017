@@ -1,7 +1,8 @@
 /*Styles for joycer-index*/
 
 *{
-	/*border: 1px solid black;*/
+	margin: 0;
+	padding: 0;
 }
 
 body{
@@ -28,7 +29,8 @@ h1 {
 
 h2 {
 	font-weight: 700; 
-	font-size: 1.5em; 
+	font-size: 1.5em;
+	margin-bottom: 1em; 
 }
 
 h3 { 
@@ -79,18 +81,100 @@ img{
 	max-width:100%;
 }
 
+.headerBg {
+	background-color: purple;
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.header {
+	max-width: 50em;
+	display: block;
+	margin: auto;
+	padding: 1em;
+}
+
+.header img {
+	margin: auto;
+	display: block;
+}
+
+.header h2 {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	font-weight: 400;
+	font-size: 1em;
+	margin-bottom: 1em;
+}
+
+.links ul {
+	list-style-type: none;
+	text-align: center;
+	padding-left: 0;
+	margin-top: .5em;
+	margin-bottom: .4em;
+	color: purple;
+}
+
+.links li {
+	display: inline-block;
+}
+
+.links li a {
+	padding: .5em 3em .5em 3em;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+
+///
+#menu {
+	position: fixed;
+	display: block;
+	top: 0;
+	width: 100%;
+	max-width: 50em;
+	height: auto;
+	background-color: white;
+	font-size: 1em;
+	border-bottom: .1em purple solid;
+}
+
+#menu ul {
+	list-style-type: none;
+	text-align: center;
+	padding-left: 0;
+	margin-top: .5em;
+	margin-bottom: .4em;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu li a {
+	padding: .5em 3em .5em 3em;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+///
+
+
+
 .error {
 	width: 100%;
 	max-width: 500px;
 	margin: 0 auto;
 }
 
-#allbody{
+#allbody {
 	margin: auto;
 	max-width: 50em;
-	margin-top: 4em;
+	margin-top: 2em;
 }
-
 
 #about:before {
   /*content:"";*/
@@ -173,35 +257,7 @@ img{
     align-items: center;
 }
 
-#menu {
-	position: fixed;
-	display: block;
-	top: 0;
-	width: 100%;
-	max-width: 50em;
-	height: auto;
-	background-color: white;
-	font-size: 1em;
-	border-bottom: .1em purple solid;
-}
 
-#menu ul {
-	list-style-type: none;
-	text-align: center;
-	padding-left: 0;
-	margin-top: .5em;
-	margin-bottom: .4em;
-}
-
-#menu li {
-	display: inline-block;
-}
-
-#menu li a {
-	padding: .5em 3em .5em 3em;
-	text-transform: uppercase;
-	text-decoration: none;
-}
 
 .hi {
 	max-width: 31.25em;
