@@ -1,0 +1,326 @@
+/*Styles for joycer-index*/
+
+*{
+	/*border: 1px solid black;*/
+}
+
+body{
+	background: #FFFFF;
+	color: black;
+	font-family: 'Cabin', Sans-serif;
+	letter-spacing: .06em;
+	line-height: 1.25em;
+	font-size:100%
+}
+
+p{
+	font-weight: 400;
+	font-size: 1em;
+	display: block;
+    margin-bottom: 1em;
+}
+
+h1 { 
+	font-size: 2em; 
+	margin-bottom: .25em;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-weight: 700; 
+	font-size: 1.5em; 
+}
+
+h3 { 
+	font-size: 1.17em;
+	text-transform: uppercase; 
+	margin-bottom: 0;
+	margin-top: 2em;
+}
+
+h4 { 
+	font-size: 1.12em; 
+    font-weight: bold;
+    margin-bottom: .25em;
+}
+
+h5 { 
+	font-size: .83em; 
+}
+
+h6 { 
+	font-size: .75em; 
+}
+
+a{
+	color: purple;
+	text-decoration: none;
+	font-weight:700;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: white;
+	background-color: purple;
+	text-decoration: none;
+/*	padding: .13em;
+	padding-top: 0;*/
+}
+
+hr {
+	height: 0;
+	border: 0;	
+	border-bottom: .15em purple dotted;
+	margin-bottom:1em;
+	margin-top: 1em;
+}
+
+img{
+	max-width:100%;
+}
+
+.error {
+	width: 100%;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+#allbody{
+	margin: auto;
+	max-width: 50em;
+	margin-top: 4em;
+}
+
+
+#about:before {
+  /*content:"";*/
+  display:block;
+  height:3em; /* fixed header height*/
+  margin:-3em 0 0; /* negative fixed header height */
+}
+
+#bioPic {
+	float: right; 
+	padding: 1em;
+	padding-top: 0;
+}
+
+.cvButton {
+	background-color: purple;
+	border-radius: .5em;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding: .3em;
+	width: 9em;
+	display: block;
+	margin-top: 1em;
+}
+
+.cvSection {
+	margin-bottom: 1.5em;
+}
+
+.cvSection h2 {
+	margin-bottom: .25em;
+	text-transform: uppercase;
+	color: white;
+	background-color: purple;
+	padding: .2em;
+	width: auto;
+}
+
+.cvSection hr {
+	margin: .5em 0;
+	padding: 0;
+}
+
+.cvSection ul {
+	margin-top: 0;
+	list-style: none;
+	padding-left: .5em;
+}
+
+
+#footer {
+	text-align: center;
+	margin-top: 3em;
+	margin-bottom: 2em;
+	font-style: italic;
+	font-size: .9em;
+}
+
+#footer img {
+	height: 2em;
+	padding: 2em;
+	padding-top: 1em;
+}
+
+#footer a:hover {
+	background-color: white;
+}
+
+.main {
+	max-width: 50em;
+	margin: auto;
+	/*Read more about flexible boxes here: http://www.w3schools.com/css/css3_flexbox.asp */
+	display:flex;
+	display: -webkit-flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	-webkit-align-items: center;
+    align-items: center;
+}
+
+#menu {
+	position: fixed;
+	display: block;
+	top: 0;
+	width: 100%;
+	max-width: 50em;
+	height: auto;
+	background-color: white;
+	font-size: 1em;
+	border-bottom: .1em purple solid;
+}
+
+#menu ul {
+	list-style-type: none;
+	text-align: center;
+	padding-left: 0;
+	margin-top: .5em;
+	margin-bottom: .4em;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu li a {
+	padding: .5em 3em .5em 3em;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.hi {
+	max-width: 31.25em;
+	margin: 1em;
+}
+
+.joycer {
+	margin-right: 1em;
+}
+
+.picContainer {
+	margin-top: 1em;
+}
+
+.inlinePic {
+	display: inline;
+	float: left;
+	width: 49.5%;
+	margin-bottom: 1em;
+}
+
+.thumb {
+	width: 24em;
+	display: inline-block;
+	margin: auto;
+	padding: .25em;
+}
+
+.thumb img {
+	margin-top: .5em;
+	width: 400px;
+	max-width: 95%;
+}
+
+.workMenu {
+	display: block;
+	margin: auto;
+	padding: 0;
+	margin-top: -2em;
+}
+
+.workMenu h3 {
+	color: purple;
+	padding: .25em 1em;
+}
+
+.workMenu ul {
+	list-style-type: none;
+}
+
+.workMenu li {
+	display: inline-block;
+	margin-right: 2em;
+}
+
+@media screen and (max-width: 680px) {
+    /*body {
+        background-color: lightgreen;
+    }*/
+
+    #menu {
+		position: static;
+		margin: auto;
+		margin-top: -3em;
+		width: 100%;
+		height: auto;
+		border-bottom: .1em purple solid;
+		margin-bottom: 1em;
+	}
+
+	#menu li {
+		display: block;
+		text-align: center;
+		padding: .5em;
+	}
+
+	#work:before {
+	  content:"";
+	  display:block;
+	  height:1em; /* fixed header height*/
+	  margin:0; /* negative fixed header height */
+	}
+
+	#about:before {
+	  content:"";
+	  display:block;
+	  height:1em; /* fixed header height*/
+	  margin:0; /* negative fixed header height */
+	}
+
+	.inlinePic {
+		display: block;
+		float: none;
+		width: 50em;
+		max-width: 100%;
+		margin-bottom: .35em;
+	}
+
+	#bioPic {
+		float: none;
+		display: block;
+		margin: auto;
+	}
+
+	.workContainer {
+	width: 95%;
+	margin: auto;
+	display: block;
+/*	display:flex;
+	display: -webkit-flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	-webkit-align-items: center;
+    align-items: center;*/
+	}
+}
+
+
+
+
+
