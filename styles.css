@@ -82,7 +82,6 @@ img{
 }
 
 .headerBg {
-	background-color: purple;
 	width: 100%;
 	height: auto;
 	display: block;
@@ -97,12 +96,14 @@ img{
 
 .header img {
 	margin: auto;
-	display: block;
+	display: inline;
+	vertical-align: middle;
+	padding-right: 3em;
 }
 
 .header h2 {
-	text-align: center;
-	color: white;
+	display: inline;
+	vertical-align: middle;
 	text-transform: uppercase;
 	letter-spacing: .5em;
 	font-weight: 400;
@@ -124,7 +125,7 @@ img{
 }
 
 .links li a {
-	padding: .5em 3em .5em 3em;
+	padding: .5em 2.2em .5em 2.2em;
 	text-transform: uppercase;
 	text-decoration: none;
 }
