@@ -1,32 +1,137 @@
+/* 
+	NICE TO HAVE 
+  	[ ] sticky bottom footer
+*/
+
 /* styles for 2017 biosite */
 
 body {
 	font-family: Work Sans, sans-serif;
+	font-weight: 400;
+}
+
+a {
+	color: #7041BC;
+	text-decoration: none;
+	font-weight: 400;
+}
+
+a:hover {
+	font-weight: 600;
 }
 
 .main {
 	width: 100%;
 	max-width: 1000px;
-	display: flex;
+	display: block;
 	justify-content: center;
   	align-items: center;
-	margin: auto;
-	background-color: gray;
+	margin: 0 auto;
+	background-color: white;
 }
 
 .header {
 	width: 100%;
-	max-width: 900px;
+	max-width: 1000px;
 	text-transform: uppercase;
 	background-color: white;
 	text-align: center;
-}
-
-.header img {
-	width: 100%;
-	max-width: 320px;
+	display: block;
+	margin: auto;
+	margin-top: 1.5em;
 }
 
 .header * {
 	display: inline;
+	vertical-align: middle;
 }
+
+.header img {
+	width: 100%;
+	max-width: 300px;
+}
+
+.header div {
+	white-space: nowrap;
+	font-size: 1.5em;
+	padding: 1em;
+	letter-spacing: .25em;
+}
+
+.menu {
+	display: block;
+	margin: auto;
+	margin-top: 1.5em;
+	background-color: white;
+}
+
+.menu ul {
+	text-align: center;
+}
+
+.menu li {
+	display: inline;
+	padding: 1.5em;
+	white-space: nowrap
+}
+
+/*.menu li a {
+	color: #7041BC;
+	text-decoration: none;
+	font-weight: 400;
+}*/
+
+/*.menu li a:hover {
+	font-weight: 600;
+}*/
+
+.blurb {
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	width: 100%;
+	max-width: 750px;
+	align-items: flex-start;
+	margin-top: 2.5em;
+	background-color: white;
+}
+
+.blurb img {
+	width: 100%;
+	max-width: 350px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+.blurb div {
+	width: 300px;
+	padding: 10px;
+	margin-left: 20px;
+	display: block;
+	margin: 0 auto;
+}
+
+.footer {
+	text-align: center;
+	padding: 2em 0;
+	background-color:
+}
+
+.footer img {
+	width: 35px;
+	vertical-align: middle;
+	padding: .5em 1.5em;
+}
+
+/* SMALL DEVICES */
+
+
+
+
+
+
+
+
+
+
