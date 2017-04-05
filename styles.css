@@ -1,4 +1,8 @@
 /* 
+	NEED TO DO
+	[ ] "design + illustration" shrink for small screen
+	[ ] about page: remove float when reaching certain breakpoint
+
 	NICE TO HAVE 
   	[ ] sticky bottom footer
 */
@@ -20,6 +24,25 @@ a:hover {
 	font-weight: 600;
 }
 
+h1 {
+	color: #7041BC;
+	text-transform: uppercase;
+	font-weight: 500;
+	text-align: center;
+	font-size: 2em;
+}
+
+h3 {
+	margin: .25em 0;
+	font-weight: 400;
+}
+
+h4 {
+	margin: .35em 0;
+	color: black;
+	font-weight: 400;
+}
+
 .main {
 	width: 100%;
 	max-width: 1000px;
@@ -39,6 +62,7 @@ a:hover {
 	display: block;
 	margin: auto;
 	margin-top: 1.5em;
+	color: black;
 }
 
 .header * {
@@ -60,9 +84,10 @@ a:hover {
 
 .menu {
 	display: block;
-	margin: auto;
+	margin: 0 auto;
 	margin-top: 1.5em;
 	background-color: white;
+	margin-bottom: 3em;
 }
 
 .menu ul {
@@ -75,16 +100,6 @@ a:hover {
 	white-space: nowrap
 }
 
-/*.menu li a {
-	color: #7041BC;
-	text-decoration: none;
-	font-weight: 400;
-}*/
-
-/*.menu li a:hover {
-	font-weight: 600;
-}*/
-
 .blurb {
 	display: flex;
 	flex-wrap: wrap;
@@ -92,7 +107,6 @@ a:hover {
 	width: 100%;
 	max-width: 750px;
 	align-items: flex-start;
-	margin-top: 2.5em;
 	background-color: white;
 }
 
@@ -110,6 +124,33 @@ a:hover {
 	margin-left: 20px;
 	display: block;
 	margin: 0 auto;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1000px;
+}
+
+.grid div {
+	width: 300px;
+	padding: 0 1em;
+}
+
+.about {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 750px;
+	margin-top: 
+}
+
+.about img {
+	float: left;
+	margin: 1em;
 }
 
 .footer {
