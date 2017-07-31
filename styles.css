@@ -2,6 +2,7 @@
 	NEED TO DO
 	[ ] "design + illustration" shrink for small screen
 	[ ] about page: remove float when reaching certain breakpoint
+	[ ] figure out why featherlight isn't shrinking images in lightbox
 
 	NICE TO HAVE 
   	[ ] sticky bottom footer
@@ -12,6 +13,7 @@
 body {
 	font-family: Work Sans, sans-serif;
 	font-weight: 400;
+	background-image: url("images/pattern.jpg")
 }
 
 a {
@@ -28,8 +30,9 @@ h1 {
 	color: #7041BC;
 	text-transform: uppercase;
 	font-weight: 500;
-	text-align: center;
 	font-size: 2em;
+	padding: 0;
+	margin: 0;
 }
 
 h3 {
@@ -43,13 +46,17 @@ h4 {
 	font-weight: 400;
 }
 
+.main, .header, .menu, .blurb div, .blurb img,  
+.projectNote, .projectImg, .projectComic, .backButton, .about {
+	display: block;
+	margin: 0 auto;
+}
+
 .main {
 	width: 100%;
-	max-width: 1000px;
-	display: block;
-	justify-content: center;
-  	align-items: center;
-	margin: 0 auto;
+	max-width: 1200px;
+	/*justify-content: center;
+  	align-items: center;*/
 	background-color: white;
 }
 
@@ -61,7 +68,8 @@ h4 {
 	text-align: center;
 	display: block;
 	margin: auto;
-	margin-top: 1.5em;
+	padding-top: 2em;
+	margin-top: -1em;
 	color: black;
 }
 
@@ -80,11 +88,11 @@ h4 {
 	font-size: 1.5em;
 	padding: 1em;
 	letter-spacing: .25em;
+	width: 100%;
+	max-width: 400px;
 }
 
 .menu {
-	display: block;
-	margin: 0 auto;
 	margin-top: 1.5em;
 	background-color: white;
 	margin-bottom: 3em;
@@ -92,6 +100,7 @@ h4 {
 
 .menu ul {
 	text-align: center;
+	padding: 0;
 }
 
 .menu li {
@@ -99,6 +108,10 @@ h4 {
 	padding: 1.5em;
 	white-space: nowrap
 }
+
+/*.menu li a {
+	font-size: 18px;
+}*/
 
 .blurb {
 	display: flex;
@@ -114,35 +127,99 @@ h4 {
 	width: 100%;
 	max-width: 350px;
 	height: auto;
-	display: block;
-	margin: 0 auto;
 }
 
 .blurb div {
 	width: 300px;
 	padding: 10px;
 	margin-left: 20px;
-	display: block;
-	margin: 0 auto;
+}
+
+.gridHed {
+	text-align: center; 
+	text-decoration: underline;
 }
 
 .grid {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: center;
+	align-items: flex-start;
 	margin: 0 auto;
 	width: 100%;
 	max-width: 1000px;
 }
 
+.grid img {
+	max-height: 500px;
+	padding: 1em;
+}
+
 .grid div {
+	padding: 1em;
 	width: 300px;
-	padding: 0 1em;
+}
+
+.grid p {
+	font-weight: 400;
+	color: black;
+	margin: 0;
+	margin-bottom: .25em;
+}
+
+.grid h3:hover {
+	font-weight: 600;
+}
+
+.grid div img {
+	padding: 0;
+}
+
+/*.portfolioNote {
+	border: 2px dashed #7041BC;
+	height: 245px;
+	width: 300px;
+	margin: auto;
+	border-radius: 30px;
+}*/
+
+
+
+.projectNote {
+	width: 100%;
+	max-width: 550px;
+	text-align: center;
+	padding-bottom: 2em;
+}
+
+.projectImg {
+	width: 100%;
+	max-width: 600px;
+}
+
+.projectComic {
+	width: 100%;
+	max-width: 700px;
+	margin-bottom: 2em;
+}
+
+.backButton {
+	background-color: #7041BC;
+	color: white;
+	text-align: center;
+	border-radius: 30px;
+	padding: .4em;
+	margin-top: 2em;
+	width: 15em;
+}
+
+.caption {
+	font-style: italic;
+	padding: 0;
+	margin: 0;
 }
 
 .about {
-	display: block;
-	margin: 0 auto;
 	width: 100%;
 	max-width: 750px;
 	margin-top: 
@@ -155,19 +232,35 @@ h4 {
 
 .footer {
 	text-align: center;
-	padding: 2em 0;
-	background-color:
+	padding: 2em;
+	background-color: white;
+	margin-top: 1em;
+	margin-bottom: -1em;
+}
+
+.footer hr {
+	margin-bottom: 3em;
+	border: 1px dotted #7041BC;
+}
+
+.footer p {
+	margin-bottom: 2em;
 }
 
 .footer img {
 	width: 35px;
 	vertical-align: middle;
 	padding: .5em 1.5em;
+	opacity: 1;
+	margin-bottom: 1em;
 }
 
 /* SMALL DEVICES */
-
-
+@media (max-width: 760px) {
+	body {
+		background-image: none;
+	}
+}
 
 
 
