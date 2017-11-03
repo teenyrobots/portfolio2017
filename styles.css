@@ -104,9 +104,9 @@ h4 {
 }
 
 .menu li {
-	display: inline;
-	padding: 1.5em;
-	white-space: nowrap
+	display: inline-block;
+	padding: .25em 1.5em;
+	white-space: nowrap;
 }
 
 /*.menu li a {
@@ -133,11 +133,20 @@ h4 {
 	width: 300px;
 	padding: 10px;
 	margin-left: 20px;
+	display: block;
+	margin: auto;
 }
 
 .gridHed {
 	text-align: center; 
-	text-decoration: underline;
+	text-decoration: none;
+	background-color: #7041BC;
+	color: white;
+	width: 98%;
+	max-width: 1000px;
+	display: block;
+	margin: auto;
+	padding: .25em;
 }
 
 .grid {
@@ -185,11 +194,16 @@ h4 {
 
 
 
-.projectNote {
+.projectNote, .projectNoteBottom {
 	width: 100%;
 	max-width: 550px;
 	text-align: center;
-	padding-bottom: 2em;
+	display: block;
+	margin: auto;
+}
+
+.projectNote {
+	padding-bottom: 1em;
 }
 
 .projectImg {
@@ -228,6 +242,8 @@ h4 {
 .about img {
 	float: left;
 	margin: 1em;
+	width: 90%;
+	max-width: 350px;
 }
 
 .footer {
@@ -244,7 +260,7 @@ h4 {
 }
 
 .footer p {
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 }
 
 .footer img {
@@ -256,9 +272,43 @@ h4 {
 }
 
 /* SMALL DEVICES */
-@media (max-width: 760px) {
+@media (max-width: 785px) {
 	body {
 		background-image: none;
+	}
+	
+	.header div {
+		vertical-align: baseline;
+		display: block;
+		margin: auto;
+		padding: 0;
+		padding-top: 1em;
+	}
+
+	.about {
+		width: 90%;
+		max-width: 500px;
+	}
+
+	.about img {
+		float: none;
+		margin: 1em;
+		width: 90%;
+		max-width: 350px;
+		display: block;
+		margin: auto;
+		padding-bottom: 1em;
+	}
+}
+
+@media (max-width: 500px) {
+	.header div {
+		font-size: 5vw;
+		vertical-align: baseline;
+		display: block;
+		margin: auto;
+		padding: 0;
+		padding-top: 1em;
 	}
 }
 
