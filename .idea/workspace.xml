@@ -1,58 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2448e2e-65be-4999-b1db-69cd652c6ed0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/comics/bird.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/comics/body.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/comics/comics.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/comics/hero.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/comics/pic1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/comics/power.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/comics/sight.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/comics/sweet.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/comics/sweet/sweet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/comics/sweet/sweet1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/comics/sweet/sweet10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/comics/sweet/sweet2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/comics/sweet/sweet3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/comics/sweet/sweet4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/comics/sweet/sweet5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/comics/sweet/sweet6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/comics/sweet/sweet7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/comics/sweet/sweet8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/comics/sweet/sweet9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/futurism/futurism.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/futurism/futurism1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/futurism/futurism2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/futurism/futurism3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/infographics/graphics/burge.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/infographics/graphics/burge.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/infographics/graphics/newspark.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/infographics/graphics/petco.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/infographics/graphics/petco.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/infographics/graphics/symbolia.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/infographics/graphics/symbolia.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/infographics/infographics.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/infographics/thumbs/burge.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/infographics/thumbs/cookies.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/infographics/thumbs/knife.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/infographics/thumbs/mardi.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/infographics/thumbs/marg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/infographics/thumbs/newspark.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/infographics/thumbs/newspark1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/infographics/thumbs/newspark2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/infographics/thumbs/petco.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/infographics/thumbs/symbolia.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/ona/ona.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/ona/ona1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/ona/ona2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/ona/ona3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/operations/operations.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/operations/operations1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects/old-projects/operations/operations2.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fun.html" afterPath="$PROJECT_DIR$/fun.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uiux.html" afterPath="$PROJECT_DIR$/uiux.html" />
-    </list>
+    <list default="true" id="f2448e2e-65be-4999-b1db-69cd652c6ed0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -88,8 +37,8 @@
       <file leaf-file-name="fun.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fun.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+            <state relative-caret-position="625">
+              <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -99,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/projects/copper/copper.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="26" column="92" lean-forward="true" selection-start-line="26" selection-start-column="92" selection-end-line="26" selection-end-column="92" />
+              <caret line="26" column="92" lean-forward="false" selection-start-line="26" selection-start-column="92" selection-end-line="26" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -209,12 +158,12 @@
       <option name="presentableId" value="Default" />
       <updated>1509735160157</updated>
       <workItem from="1509735161383" duration="3318000" />
-      <workItem from="1509743957785" duration="1056000" />
+      <workItem from="1509743957785" duration="1413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4374000" />
+    <option name="totallyTimeSpent" value="4731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
@@ -307,15 +256,15 @@
     <entry file="file://$PROJECT_DIR$/projects/copper/copper.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="26" column="92" lean-forward="true" selection-start-line="26" selection-start-column="92" selection-end-line="26" selection-end-column="92" />
+          <caret line="26" column="92" lean-forward="false" selection-start-line="26" selection-start-column="92" selection-end-line="26" selection-end-column="92" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fun.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+        <state relative-caret-position="625">
+          <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
           <folding />
         </state>
       </provider>
