@@ -1,47 +1,70 @@
 <!DOCTYPE html>
 <html>
-	
 	<head>
 		<title>Commuter Challenge</title>
-
-		<link rel="stylesheet" type="text/css" href="../../styles.css">
-		<link href='https://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="../../styles.css"> 
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600" rel="stylesheet">
+		<link href="../../featherlight.min.css" type="text/css" rel="stylesheet" />
+		<link href="../../featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
 		<link rel="shortcut icon" type="image/png" href="../../favicon.ico" />
 		<meta id="meta" name="viewport" content="width=device-width; initial-scale=1.0" />
 	</head>
 
 	<body>
-		<div id="allbody">
-			<div id="menu">
+		<div class="main">
+			<a href="../../index.html">
+				<div class="header">
+					<img src="../../images/joycerice.jpg">
+					<div>design + illustration</div>
+				</div>
+			</a>
+
+			<div class="menu">
 				<ul>
-					<li><a href="../../index.html">Joyce Rice</a></li>
-					<li><a href="../../index.html#work">Work</a></li>
-					<li><a href="../../index.html#about">About</a></li>
-					<li><a href="http://blog.teenyrobots.net" target="_blank">Blog</a></li>
+					<li><a href="../../uiux.html" style="font-weight: 600">UI/UX</a></li>
+					<li><a href="../../graphics.html">graphics</a></li>
+					<li><a href="../../comics.html">comics</a></li>
+					<li><a href="../../fun.html">fun stuff</a></li>
+					<li style="color: #7041BC">|</li>
+					<li ><a href="../../about.html">about</a></li>
 				</ul>
 			</div>
-			<h1>Commuter Challenge</h1>
-			<em>Game designer</em>
-			<div class="picContainer">
-				<img src="wamu11.png">
-				<br>
-				<img src="wamu2.png" class="inlinePic" style="width:33.5%; padding-right: 1%">
-				<img src="wamu3.png" class="inlinePic" style="width:65.5%">
+
+			<div class="projectNote">
+				<h1>Commuter Challenge</h1>
+				<em>Client: WAMU 88.5</em>
+				<h4>Commuter Challenge is a short browser game developed in partnership with <a href="https://wamu.org/" target="_blank">WAMU 88.5</a> in Washington D.C. during the Washington Metro Area Transit Authority's year-long, intensive <a href="http://wmata.com/rail/safetrack.cfm?" target="_blank">SafeTrack initiative</a> to update the Metrorail system.</h4>
+				
+				<p>The goal of the project was to help players gain a better understanding of how service disruptions affect low-income workers travelling to jobs with unflexible employers</p>
 			</div>
-			<br style="clear:both">
-			<p>Commuter Challenge is a short browser game developed in partnership with <a href="https://wamu.org/" target="_blank">WAMU 88.5</a> in Washington D.C. during the Washington Metro Area Transit Authority's year-long, intensive <a href="http://wmata.com/rail/safetrack.cfm?" target="_blank">SafeTrack initiative</a> to update the Metrorail system. The goal of the project was to help players gain a better understanding of how service disruptions affect low-income workers travelling to jobs with unflexible employers</p>
+			<section data-featherlight-gallery data-featherlight-filter="a" class="grid">
+		      	<a href="images/wamu1.png"><img src="thumbs/wamu1.jpg"></a>
+		      	<a href="images/wamu2.png"><img src="thumbs/wamu2.jpg"></a>
+		      	<a href="images/wamu3.png"><img src="thumbs/wamu3.jpg"></a>
+		    </section>
 
-			<p>In Commuter Challenge, the player manages time and money during a work week as a kitchen staff person living in the suburbs and commuting to D.C. via Metrorail. The character is based on a composite of interviews conducted by Maggie Farley at Metrorail stations in the D.C. area. The game was designed by Maggie Farley and myself, and I developed the game in <a href="https://twinery.org/">Twine</a> using HTML and Twinescript (a language based on Javascript). The game was illustrated by <a href="http://www.swinsea.com/" target="_blank">Sarah Searle</a>. It was published with WAMU 88.5 as a part of a trio of pieces on how SafeTrack affects D.C. residents and <a href="http://wamu.org/commuter-challenge/" target="_blank">can be played here</a>.</p>
-			<hr>
+		    <div class="projectNoteBottom">
+			    <p>In Commuter Challenge, the player manages time and money during a work week as a kitchen staff person living in the suburbs and commuting to D.C. via Metrorail. The character is based on a composite of interviews conducted by Maggie Farley at Metrorail stations in the D.C. area. The game was designed by Maggie Farley and myself, and I developed the game in <a href="https://twinery.org/">Twine</a> using HTML and Twinescript (a language based on Javascript). The game was illustrated by <a href="http://www.swinsea.com/" target="_blank">Sarah Searle</a>. It was published with WAMU 88.5 as a part of a trio of pieces on how SafeTrack affects D.C. residents and <a href="http://wamu.org/commuter-challenge/" target="_blank">can be played here</a>.</p>
+		    </div>
 
-			<div id="footer">
-				<p>thanks!</p>
-				<a href="https://www.instagram.com/teenyrobots/" target="_blank"><img src="../../images/grams.jpg"></a>
+			<a href="../../uiux.html"><div class="backButton">Back to UI/UX portfolio</div></a>
+
+			<div class="footer">
+				<hr>
+				<p>let's connect!</p>
 				<a href="https://twitter.com/teenyrobots" target="_blank"><img src="../../images/twitter.jpg"></a>
+				<a href="https://www.instagram.com/teenyrobots/" target="_blank"><img src="../../images/grams.jpg"></a>
+				<a href="http://blog.teenyrobots.net" target="_blank"><img src="../../images/tumblr.jpg"></a>
 				<a href="mailto:joycer@teenyrobots.net?Subject=Hello%20friend" target="_blank"><img src="../../images/mail.jpg"></a>
 			</div>
 
 		</div>
+
+		<script src="https://code.jquery.com/jquery-latest.js"></script>
+		<script src="../../featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../../featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+
 	</body>
 
 </html>
